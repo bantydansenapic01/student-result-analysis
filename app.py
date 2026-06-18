@@ -560,7 +560,8 @@ with tab3:
             sorted(
                 df["Class"]
                 .unique()
-            )
+            ),
+            key="class merit"
         )
 
         class_df = df[
